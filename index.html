@@ -1,281 +1,214 @@
 
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Волкечил | Купить зверей из цирка</title>
-<meta name="title" content="Купить зверей из цирка в Краснодаре"/>
-<meta name="description" content="Волкечил. Купить зверей из цирка. Волк слабее льва и тигра, но в цирке он не выступает"/>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<meta name="yandex-verification" content="07f0494816760b6b" />
-<meta name="google-site-verification" content="vtKtpqelKBIrSfmJ1ZjfsyDZi0fOW4aaQPJ45Cpf_bA" />
-<script src="my.js" defer></script>
-<link rel="stylesheet" type="text/css" href="./slick/slick.css">
-<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script src="./slick/slick.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Магазин | Что-то продаю</title>
+    <meta name="discription" content="Вы тут делаете покупки, а мне с этого капает деньга"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="my.js" defer></script>
 </head>
 
 <body>
-
-<div class="container-fluid headerstyle">
-<header class="container main-header">
-<div class="row py-2 align-items-center">
-<img class="logo col-auto px-3"  src="image.png" alt="logo">
-<h1 class="col-8 text-center">Волкечил</h1>
-</div>
-</header>
-</div>
-
-<nav class="container-fluid text-lg-center navstyle " id="menu">
-<ul class=row>
-<li class="col-lg-3"><a href="#about">О нас</a></li>
-<li class="col-lg-3"><a href="#contacts">Связь с нами</a></li>
-<li class="col-lg-3"><a href="#zveri">Звери</a></li>
-<li class="col-lg-3"><a href="#reviews">Отзывы</a></li>
-</ul>
-</nav>
-
-<main class="container">
-<div class="mainstyle" id="zveri">
-
-<div class="row pb-4">
-<div class="col-lg-12 text-center">
-<div>
-<h2>Наши звери</h2>
-В магазине "Волкечил" Вы можете купить различных зверей из цирка. Главной особенностью нашего магазина является то, что мы продаем не только обычных зверей из цирка, но и очень редких, например: <u>Волк</u>.
-</div>
-</div>
-</div>
-
-<div class="row overflow-hidden ">
-
-<!--lev-->
-<div class="col-lg-4 text-center">
-<div itemscope itemtype="http://schema.org/Product">
-<h2 itemprop="name">Лев</h2>
-<a itemprop="image" href="lev.jpg"><img src="lev.jpg" alt="lev" class="img"></a>
-<span itemprop="mpn" hidden>1</span>
-<span itemprop="sku" hidden>1 hidden</span><br>
-<span itemprop="brand"><b>Вид:</b> Panthera leo persica</span>
-<div itemprop="description">Лев — вид хищных млекопитающих, один из четырёх представителей рода пантер, относящегося к подсемейству больших кошек.</div>
-<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-<span itemprop="ratingValue">4.5</span>/5 ,
-<span itemprop="reviewCount">9</span> оценок
-</div>
-<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-<span itemprop="priceCurrency" content="RUB"></span>
-<span itemprop="price" content="1000.00">1000 руб</span>
-<meta itemprop="priceValidUntil" content="2029-12-31">
-<link itemprop="url" href="example.com" content="/zveri" property='stylesheet'>
-<link itemprop="availability" href="http://schema.org/InStock" />В наличии
-</div>
-<div itemprop="review" itemscope itemtype="http://schema.org/Review" id="reviews">
-<br><i><span itemprop="name"><b>Отлично</b></span> -
-<span itemprop="author">Ирина</span>,
-<meta itemprop="datePublished" content="2019-08-01">1 Августа, 2019</i>
-<div> Город: Москва</div>
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-<meta itemprop="worstRating" content = "1">
-<span itemprop="ratingValue">4.5</span> /
-<span itemprop="bestRating">5</span> stars
-</div>
-<p itemprop="description">Купили льва, волка не было в наличии</p>
-</div>
-</div>
-</div>
-<!--tigr-->
-<div class="col-lg-4 text-center">
-<div itemscope itemtype="http://schema.org/Product">
-<h2 itemprop="name">Тигр</h2>
-<a itemprop="image" href="tigr.jpg"><img src="tigr.jpg" alt="tigr" class="img"></a>
-<span itemprop="mpn" hidden>1</span>
-<span itemprop="sku" hidden>2</span><br>
-<span itemprop="brand"><b>Вид:</b> Амурский тигр</span>
-<div itemprop="description">Тигр — вид хищных млекопитающих семейства кошачьих, один из четырёх представителей рода пантера</div>
-<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-<span itemprop="ratingValue">4</span>/5 ,
-<span itemprop="reviewCount">8</span> оценок
-</div>
-<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-<span itemprop="priceCurrency" content="RUB"></span>
-<span itemprop="price" content="1000.00">1500 руб</span>
-<meta itemprop="priceValidUntil" content="2029-12-31">
-<link itemprop="url" href="example.com" content="/zveri" property='stylesheet'>
-<link itemprop="availability" href="http://schema.org/InStock" />В наличии
-</div>
-<div itemprop="review" itemscope itemtype="http://schema.org/Review">
-<br><i><span itemprop="name"><b>Хорошо</b></span> -
-<span itemprop="author">Ольга</span>,
-<meta itemprop="datePublished" content="2011-10-10">10 Октября, 2019</i>
-<div>Город: Краснодар </div>
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-<meta itemprop="worstRating" content = "1">
-<span itemprop="ratingValue">4</span> /
-<span itemprop="bestRating">5</span> stars
-</div>
-<p itemprop="description">Все отлично</p>
-  </div>
-</div>
-</div>
-<!--volk-->
-<div class="col-lg-4 text-center">
-<div itemscope itemtype="http://schema.org/Product">
-<h2 itemprop="name">Волк</h2>
-<a itemprop="image" href="volk.jpg"><img src="volk.jpg" alt="volk" class="img"></a>
-<span itemprop="mpn" hidden>1</span>
-<span itemprop="sku" hidden>1</span><br>
-<span itemprop="brand"><b>Вид:</b> Арктический</span>
-<div itemprop="description">Волк, или серый волк, или обыкнове́нный волк — вид хищных млекопитающих из семейства псовых.</div>
-<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-<span itemprop="ratingValue">1</span>/5
-<span itemprop="reviewCount">1</span> оценка
-</div>
-<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-<span itemprop="priceCurrency" content="RUB"></span>
-<span itemprop="price" content="1000.00">1000 руб</span>
-<meta itemprop="priceValidUntil" content="2029-12-31">
-<link itemprop="url" content="/zveri" href="example.com" property='stylesheet'>
-<link itemprop="availability" href="http://schema.org/InStock" />Нет в наличии
-</div>
-<div itemprop="review" itemscope itemtype="http://schema.org/Review">
-<br><i><span itemprop="name"><b>Ужасно</b></span> -
-<span itemprop="author">Анна</span>,
-<meta itemprop="datePublished" content="2019-10-20">20 Октября, 2019</i>
-<div>Город: Севастополь</div>
-<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-<meta itemprop="worstRating" content = "1">
-<span itemprop="ratingValue">1</span> /
-<span itemprop="bestRating">5</span> stars
-</div>
-<p itemprop="description">Не смогли купить волка</p>
-  </div>
-</div>
-</div>
-
-</div>
-</div><!--close mainstyle-->
-
-<div class="container about" id="about">
-<div itemscope itemtype="http://schema.org/Organization">
-<div class="row">
-<div class="col-lg-12 text-center">
-<h2 itemprop="name">Волкечил в Краснодаре</h2>
-</div>
-</div>
-<h2>Контактная информация:</h2>
-<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-<div class="row text-center">
-<div class="col-lg-6">
-<b>Адрес:</b><br>
-<span itemprop="postalCode">350000</span>
-<span itemprop="streetAddress">Пушкина, 1</span>
-<span itemprop="addressLocality">Краснодар</span>
-</div>
-<div class="col-lg-6">
-<b>Телефон:</b><br><span itemprop="telephone">+7 861 000-00-00</span>
-</div>
-</div>
-</div>
-<div class="row text-center">
-<div class="col-lg-6">
-<b>Факс:</b><br><span itemprop="faxNumber">+7 861 000-00-00</span>
-</div>
-<div class="col-lg-6">
-<b>Электронная почта:</b><br><span itemprop="email">test@test.ru</span>
-</div>
-</div>
-</div>
-</div><!--close about-->
-
-<div class="container calc">Рассчитать стоимость заказа:
+    <div class="container-fluid headerstyle">
+        <header class="container main-header">
+            <div class="row py-2 aling-items-center">
+                <img class="logo col-auto px-3" src="image.png" alt="logo">
+                <h1 class="col-8 text-center">Сайт - магазин</h1>
+            </div>
+        </header>
+    </div>
+    <nav class="container-fluid text-lg-center navstyle " id="menu">
+		<ul class=row>
+			<li class="col-lg-3"><a href="#about">О нас</a></li>
+			<li class="col-lg-3"><a href="#contacts">Связь с нами</a></li>
+			<li class="col-lg-3"><a href="#goods">Товары</a></li>
+			<li class="col-lg-3"><a href="#reviews">Отзывы</a></li>
+		</ul>
+	</nav>
+   
+    <main class="container">
+        <div class="mainstyle" id="goods">
+            <div class="row pb-4">
+                <div class="col-lg-12 text-center">
+                    <div>
+                        <h2>Товары</h2>
+                        Ну это типо товары, но мне лень что-то придумывать, поэто я просто рамки поставлю, а вы представвьте, что тут что-то такое, что вы хотели бы купить.
+                    </div>
+                </div>
+            </div>
+			<div class="row overflow-hidden">
+				<!-- товар 1 -->
+				<div class="col-lg-4 text-center">
+					<div itemscope itemtype="http://schema.org/Product">
+						<h2 itemprop="name">Товар 1</h2>
+						<a itemprop="image" href="imajine.jpg">
+							<img src="imajine.jpg" alt="T1" class="img">
+						</a>
+						<span itemprop="mpn" hidden>1</span>
+						<span itemprop="sku" hidden>1 hidden</span>		
+						<span itemprop="brand"><b> <br>Товар :</b>Товар первый, на ваше воображение</span>
+						<div itemprop="description">Тут могло бы быть что-то полезное и интересное, но мне лень.</div>
+						<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+							<span itemprop="ratingValue">12</span>/10 ,
+							<span itemprop="reviewCount">228</span> оценок
+						</div>
+						<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+							<span itemprop="priceCurrency" content="RUB"></span>
+							<span itemprop="price" content="777.00">777 рубчиков</span>
+							<link itemprop="url" href="example.com" content="/goods" property='stylesheet'>
+							<link itemprop="availability" href="http://schema.org/InStock" />На складе
+						</div>
+						<div itemprop="review" itemscope itemtype="http://schema.org/Review" id="reviews">
+							<br><i><span itemprop="name"><b>Замурчательно</b></span> -
+							<span itemprop="author">Кто-то</span>,
+							<meta itemprop="datePublished" content="2020-04-01">1 апреля, 2020</i>
+							<div> Город: Жопеня</div>
+							<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+								<meta itemprop="worstRating" content = "1">
+								<span itemprop="ratingValue">12</span> /
+								<span itemprop="bestRating">10</span> звезд
+							</div>
+							<p itemprop="description">Вот что представил, то и пришло</p>
+						</div>
+					</div>
+				</div>
+				<!-- Товар 2 -->
+				<div class="col-lg-4 text-center">
+					<div itemscope itemtype="http://schema.org/Product">
+						<h2 itemprop="name">Товар 2</h2>
+						<a itemprop="image" href="imajine.jpg">
+							<img src="imajine.jpg" alt="T1" class="img">
+						</a>
+						<span itemprop="mpn" hidden>1</span>
+						<span itemprop="sku" hidden>1 hidden</span>		
+						<span itemprop="brand"><b> <br>Товар :</b>Товар второй, на ваше воображение</span>
+						<div itemprop="description">Ну тут тоже могло бы быть что-то полезное и интересное, но мне лень.</div>
+						<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+							<span itemprop="ratingValue">10</span>/10 ,
+							<span itemprop="reviewCount">47</span> оценок
+						</div>
+						<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+							<span itemprop="priceCurrency" content="RUB"></span>
+							<span itemprop="price" content="666.00">666 рубчиков</span>
+							<link itemprop="url" href="example.com" content="/goods" property='stylesheet'>
+							<link itemprop="availability" href="http://schema.org/InStock" />На складе
+						</div>
+						<div itemprop="review" itemscope itemtype="http://schema.org/Review" id="reviews">
+							<br><i><span itemprop="name"><b>Замурчательно</b></span> -
+							<span itemprop="author">Кто-то</span>,
+							<meta itemprop="datePublished" content="2020-04-02">2 апреля, 2020</i>
+							<div> Город: Донбасс</div>
+							<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+								<meta itemprop="worstRating" content = "1">
+								<span itemprop="ratingValue">10</span> /
+								<span itemprop="bestRating">10</span> звезд
+							</div>
+							<p itemprop="description">Дедушке понравилось</p>
+						</div>
+					</div>
+				</div>
+				<!-- Товар 3 -->
+				<div class="col-lg-4 text-center">
+					<div itemscope itemtype="http://schema.org/Product">
+						<h2 itemprop="name">Товар 3</h2>
+						<a itemprop="image" href="imajine.jpg">
+							<img src="imajine.jpg" alt="T1" class="img">
+						</a>
+						<span itemprop="mpn" hidden>1</span>
+						<span itemprop="sku" hidden>1 hidden</span>		
+						<span itemprop="brand"><b> <br>Товар :</b>Товар третий, на ваше воображение</span>
+						<div itemprop="description">Ну тут тоже могло бы быть что-то полезное и интересное, но мне лень.</div>
+						<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+							<span itemprop="ratingValue">11</span>/10 ,
+							<span itemprop="reviewCount">6</span> оценок
+						</div>
+						<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+							<span itemprop="priceCurrency" content="RUB"></span>
+							<span itemprop="price" content="888.00">888 рубчиков</span>
+							<link itemprop="url" href="example.com" content="/goods" property='stylesheet'>
+							<link itemprop="availability" href="http://schema.org/InStock" />На складе
+						</div>
+						<div itemprop="review" itemscope itemtype="http://schema.org/Review" id="reviews">
+							<br><i><span itemprop="name"><b>Ахудеть</b></span> -
+							<span itemprop="author">Кто-то</span>,
+							<meta itemprop="datePublished" content="2020-04-02">3 апреля, 2020</i>
+							<div> Город: Расколбасс</div>
+							<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+								<meta itemprop="worstRating" content = "1">
+								<span itemprop="ratingValue">11</span> /
+								<span itemprop="bestRating">10</span> звезд
+							</div>
+							<p itemprop="description">Просто топ</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- mainstyle off -->
+			<div class="container about" id="about">
+				<div itemscope itemtype="http://schema.org/Organization">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h1 itemprop="name">Какие-то товары, где-то в Красе</h1>
+						</div>
+					</div>
+					<div class="col-lg-12 text-center">
+					<h2>Контактная информация:</h2>
+					</div>
+					<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+						<div class="row text-center">
+							<div class="col-lg-6">
+							<b>Адрес:</b><br>
+							<span itemprop="postalCode">350000</span>
+							<span itemprop="streetAddress">Пушкина, д. Колотушкина,</span>
+							<span itemprop="addressLocality">Краснодар</span>
+						</div>
+						<div class="col-lg-6">
+							<b>Телефон:</b><br><span itemprop="telephone">8 800 555-35-35</span>
+						</div>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-lg-6">
+						<b>Факс:</b><br><span itemprop="faxNumber">ТЕБЕЛЕХИНШАЛА</span>
+					</div>
+					<div class="col-lg-6">
+						<b>Электронная почта:</b><br><span itemprop="email">yarikhuy@rit.ru</span>
+					</div>
+				</div>
+			</div>
+			</div>
+        </div>
+			<!--about off-->
+			<div class="container calc">Рассчитать стоимость заказа:
 <div class="row">
 <div class="col-lg-4">
 <form name="calk">
   <b>Количество:</b><br>
     <input class="form-control" name="quantity" type="text" value="1"><br>
       <b>Зверь:</b><br>
-  <select class="form-control" name="prodType">
-    <option value="1">Лев</option>
-    <option value="2">Тигр</option>
-    <option value="3">Волк</option>
+  <select name="prodType">
+    <option value="1">Товар 1</option>
+    <option value="2">Товар 2</option>
+    <option value="3">Товар 3</option>
   </select><br>
   <div id="radios">
-    <label><input type="radio" name="prodOptions" value="option1"><b>Цвет:</b>Красный</label>
-    <label><input type="radio" name="prodOptions" value="option2"><b>Цвет:</b>Черный</label>
+    <label><input type="radio" name="prodOptions" value="option1"><b>Цвет:</b>Любой</label>
+    <label><input type="radio" name="prodOptions" value="option2"><b>Цвет:</b>Ваще любой</label>
   </div>
   <div id="checkboxes">
     <label><input type="checkbox" name="prop1"><b>Доставка</b></label>
   </div>
 </form>
 <b>Итоговая цена:</b>
-<div class="text-center" id="out">qq</div>
+<div id="out">qq</div>
 </div>
 </div>
 </div>
-
-
-<div class="sl">
-  <div class="col-lg-12 text-center">
-        <h2>Галерея</h2><br>
-  </div>
-<div class="regular slider">
-
-  <div>
-    <img src="gallery/lev1.jpg" alt="lev">
-  </div>
-  <div>
-    <img src="gallery/lev2.jpg" alt="lev">
-  </div>
-  <div>
-    <img src="gallery/lev3.jpg" alt="lev">
-  </div>
-  <div>
-    <img src="gallery/lev4.jpg" alt="lev">
-  </div>
-  <div>
-    <img src="gallery/lev5.jpg" alt="lev">
-  </div>
-  <div>
-    <img src="gallery/lev6.jpg" alt="lev">
-  </div>
-  <div>
-    <img src="gallery/tigr1.jpg" alt="tigr">
-  </div>
-  <div>
-    <img src="gallery/tigr2.jpg" alt="tigr">
-  </div>
-  <div>
-    <img src="gallery/tigr3.jpg" alt="tigr">
-  </div>
-  <div>
-    <img src="gallery/volk1.jpg" alt="volk">
-  </div>
-  <div>
-    <img src="gallery/volk2.jpg" alt="volk">
-  </div>
-  <div>
-    <img src="gallery/volk3.jpg" alt="volk">
-  </div>
-  <div>
-    <img src="gallery/volk4.jpg" alt="volk">
-  </div>
-  <div>
-    <img src="gallery/volk5.jpg" alt="volk">
-  </div>
-  <div>
-    <img src="gallery/volk6.jpg" alt="volk">
-  </div>
-  <div>
-    <img src="gallery/volk7.jpg" alt="volk">
-  </div>
-</div>
-</div>
-
 <div class="container contacts" id="contacts">
 <div class="row">
 <div class="col-lg-12 text-center">
